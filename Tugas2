@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Pertemuan 1 Pemrograman Web</title>
+    <style>
+    .judul {
+        background: cornsilk; 
+        margin: auto;
+        padding-top: 1px;
+    }
+    h2{
+        color:brown;
+        font: italic normal bold 25px sans-serif;
+    }
+    a {
+        color:green;
+    }
+    .pengalaman {
+        background-color: cornsilk; 
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .pidio {
+        background-color: cornsilk; 
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    </style>
+</head>
+<body>
+    <table align="center" width="800" border="3">
+        <tr>
+            <section class="top" id="profil">
+                <td colspan="2">
+                    <figure class="judul">
+                              <center>
+                                    <h2>Arum Rahmawati</h2>
+                                    <img src="arrum.jpg" alt="Pas Foto" width="130px" height="auto"> <br>
+                                    <b>Teknik Informatika</b>
+                            <br> <br>
+                            <b>Contact Me :</b>
+                            <nav>
+                                <a href="https://www.instagram.com/.arumrhm_"><font size="4">Instagram    |</font></a>
+                                <a href="mailto:arum.120140085@student.itera.ac.id"><font size="4">Email |</font></a>
+                                <a href="http://wa.me/62895331487259"><font size=4>Whatsapp</font></a>
+                            </nav>
+                        </center>
+                    </figure>
+                </td>
+            </section>
+        </tr><tr>
+        </tr><tr>
+            <div class="pendidikan">
+                <td>
+                    <br>
+                    <figure class="pengalaman"> 
+                        <b>PENGALAMAN DAN PENDIDIKAN</b>
+                        <hr width="38%" align="left">
+                        <ul>
+                            <li>
+                                  <h4> Institut Teknologi Sumatera</h4>
+                            </li>
+                            <ul>
+                                  <li> Asisten Praktikum Fisika Dasar I Tahun 2021-2022 </li>
+                                  <li> Asisten Praktikum Fisika Dasar II Tahun 2021-2022 </li>
+                                  <li> Himpunan Mahasiswa Teknik Informatika Divisi Pengabdian Masyarakat </li>
+                                  <li> Panitia Konsumsi Makrab Teknik Informatika 2020</li>
+                                  <li> Panitia Mentor Kaderisasi Tahun 2022 Himpunan Mahasiswa Teknik Informatika (HMIF)</li>
+                                  <li> Panitia Kreativ Informathics Thesis Expo Vol. IV </li>
+                            </ul>
+                            <li>
+                                <h4> SMAS Perintis 2 Bandar Lampung <i> (2014-2017) </i></h4>    
+                            </li>
+                            <li>
+                                <h4> SMP Negeri 3 Bandar Lampung <i> (2017-2020) </i></h4>
+                          </li>
+                          <li>
+                                <h4> SD Negeri 1 Bandar Lampung <i> (2020-Sekarang) </i></h4>  
+                          </li>
+                          <ul>
+                          </ul>
+                        
+                    </figure>
+                </td>
+            </div>
+        </tr>
+        <tr>
+           
+            <div class="video">
+                <td>
+                    <br>
+                    <figure class="pidio">
+                    <b>VIDEO</b>
+                    <hr width="8%" align="left"><br>
+                    <figcaption align="left"><b>Musik tervaforit dalam playlist musik saya adalah To Myself from DPR Live</b></figcaption><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HuglWCtFW2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+                    <p>
+                        <label for="tanya"><b> Apakah kamu menyukai lagu diatas? </b></label> <br>
+                        <input type="radio" id="tanya" name="tanya">Ya <br>
+                        <input type="radio" id="tanya" name="tanya">Tidak <br>
+                    </p>
+                        
+                    <h4 id="Favorite Song ?">Your Favorite song ?</h4>
+                        <p>
+                            <label for="Judul Lagu"> Judul Lagu:</label>
+                            <input type="text" id="nama" name="nama">
+                        </p>
+                        <button type="submit">Kirim</button>
+                       
+                        <p>  
+                            <label for="tanya"><b>Favorite Food?</b></label> <br>
+                            <input type="checkbox"> Bakso <br>
+                            <input type="checkbox"> Mie Ayam <br>
+                            <input type="checkbox"> Seblak <br>
+                        </p>
+      
+                    <table class="afterwatch">
+                        <h3 id="kerja">Random Things</h3>
+                        <table border="1">
+                            <thread>
+                                <tr>
+                                    <th rowspan="2">No</th>
+                                    <th rowspan="2">Warna</th>
+                                    <th rowspan="2">Buah</th>
+                                    <th colspan="2">My Hero</th>
+                                </tr>
+                                <tr>
+                                    <th>Ayah</th>
+                                    <th>Ibu</th>
+                                </tr>
+                            </thread>
+                            <tr>
+                                <td>1</td>
+                                <td>Biru</td>
+                                <td>Alpukat</td>
+                                <td>Wasno</td>
+                                <td>Parinem</td>
+                            </tr>
+                        </table>
+                  <h2>Kamsahamnida</h2>
+</body>
+</html>
